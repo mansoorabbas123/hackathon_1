@@ -4,6 +4,7 @@ import Promotions from "../../components/custom/HomePage/Promotions";
 import FeaturedProducts from "../../components/custom/HomePage/FeaturedProducts";
 
 export default function Home() {
+  console.log("test changes");
   return (
     <div>
       {/* hero  */}
