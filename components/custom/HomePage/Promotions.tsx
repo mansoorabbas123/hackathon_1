@@ -9,7 +9,7 @@ const Promotions = () => {
         Our Promotions Events
       </h2>
       {/* promo container  */}
-      <div className="flex flex-wrap gap-8">
+      <div className="flex flex-wrap gap-6">
         {/* item1  */}
         <div className="flex flex-wrap flex-grow-[20]">
           <div className="flex flex-col w-full">
@@ -25,7 +25,7 @@ const Promotions = () => {
                 <Image
                   src={require("../../../src/asset/promo/event1.webp")}
                   alt=""
-                  className="block "
+                  className="block"
                 />
               </div>
             </div>
