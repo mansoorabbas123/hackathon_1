@@ -26,19 +26,19 @@ const Hero: React.FC<Props> = () => {
         </button>
         <div className="flex justify-between pt-10 gap-4">
           <Image
-            src={require("../../src/asset/hero/icons/Featured1.webp")}
+            src={require("../../../src/asset/hero/icons/Featured1.webp")}
             alt=""
           />
           <Image
-            src={require("../../src/asset/hero/icons/Featured2.webp")}
+            src={require("../../../src/asset/hero/icons/Featured2.webp")}
             alt=""
           />
           <Image
-            src={require("../../src/asset/hero/icons/Featured3.webp")}
+            src={require("../../../src/asset/hero/icons/Featured3.webp")}
             alt=""
           />
           <Image
-            src={require("../../src/asset/hero/icons/Featured4.webp")}
+            src={require("../../../src/asset/hero/icons/Featured4.webp")}
             alt=""
           />
         </div>
@@ -50,7 +50,7 @@ const Hero: React.FC<Props> = () => {
           className="bg-[#ffece3] h-[40rem] w-[40rem] rounded-[50%] relative"
         >
           <Image
-            src={require("../../src/asset/hero/header.webp")}
+            src={require("../../../src/asset/hero/header.webp")}
             alt=""
             className="absolute top-[45px]"
           />

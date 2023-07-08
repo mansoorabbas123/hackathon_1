@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Input } from "../ui/input";
+import { Input } from "../../ui/input";
 import { ShoppingCart, AlignRight, X } from "lucide-react";
 import Image from "next/image";
 
@@ -11,11 +11,11 @@ type NavbarProps = {
 const Navbar: React.FC<NavbarProps> = ({ name }): JSX.Element => {
   const [openMenu, setOpenMenu] = useState<boolean>(false);
   return (
-    <div className="flex justify-between items-center  flex-grow-[1]">
+    <div className="flex justify-between items-center flex-grow-[1]">
       {/* logo  */}
       <div className="">
         <Image
-          src={require("../../src/asset/Logo.webp")}
+          src={require("../../../src/asset/Logo.webp")}
           alt="logo"
           className="w-[140px]"
         />
@@ -61,7 +61,7 @@ const Navbar: React.FC<NavbarProps> = ({ name }): JSX.Element => {
         <div className="flex justify-between px-8 pt-8">
           {/* logo  */}
           <Image
-            src={require("../../src/asset/Logo.webp")}
+            src={require("../../../src/asset/Logo.webp")}
             alt="logo"
             className="w-[140px] block"
           />
